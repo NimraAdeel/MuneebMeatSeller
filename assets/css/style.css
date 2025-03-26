@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Hero Section */
 .hero-section {
     background: url('https://NimraAdeel.github.io/MuneebMeatSeller/images/herobg.png') no-repeat center center/cover;
     height: 50vh;
@@ -12,25 +11,14 @@ body {
     flex-direction: column;
 }
 
-/* Categories */
 .categories {
     padding: 50px 0;
 }
 
-/* Team Members & Why Choose Us Images Fix */
 .card img {
-    height: 250px; /* Increased height for better visibility */
-    object-fit: cover; /* Ensures image fits without distortion */
-    width: 100%; /* Ensures image takes full width of card */
-}
-
-.img-fluid {
-    height: 200px; /* For "Why Choose Us?" section images */
+    height: 200px;
     object-fit: cover;
-    width: 100%;
 }
-
-/* Card Hover Effect */
 .card {
     transition: transform 0.3s ease-in-out;
 }
@@ -38,7 +26,6 @@ body {
 .card:hover {
     transform: scale(1.05);
 }
-
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -108,14 +95,6 @@ footer {
     form {
         width: 90%;
     }
-
-    .card img {
-        height: 200px; /* Reduce height for smaller screens */
-    }
-
-    .img-fluid {
-        height: 180px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -137,13 +116,5 @@ footer {
 
     footer {
         font-size: 14px;
-    }
-
-    .card img {
-        height: 180px; /* Further reduce image size for very small screens */
-    }
-
-    .img-fluid {
-        height: 160px;
     }
 }
